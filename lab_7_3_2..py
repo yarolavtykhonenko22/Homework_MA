@@ -2,7 +2,7 @@ import lab_7_3_1
 
 
 class UserDate(lab_7_3_1.Date):
-    date3 = None
+    pass
 
 
 if date3 := lab_7_3_1.Date.from_string("12-2-345", "-"):
