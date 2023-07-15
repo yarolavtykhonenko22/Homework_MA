@@ -270,4 +270,5 @@ eth = Ethereum()
 zl = Zloty()
 eu = Euro()
 dol = Dollar()
-executor.start_polling(dp)
+if __name__ == "__main__":
+    executor.start_polling(dp, skip_updates=True)
